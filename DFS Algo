@@ -1,0 +1,7 @@
+Step 1: SET STATUS = 1 (ready state) for each node in G
+Step 2: Push the starting node A on the stack and set its STATUS = 2 (waiting state)
+Step 3: Repeat Steps 4 and 5 until STACK is empty
+Step 4: Pop the top node N. Process it and set its STATUS = 3 (processed state)
+Step 5: Push on the stack all the neighbors of N that are in the ready state (whose STATUS = 1) and set their STATUS = 2 (waiting state)
+[END OF LOOP]
+Step 6: EXIT
