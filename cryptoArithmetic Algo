@@ -1,0 +1,6 @@
+1. Cryptarithmetic Problem is a type of constraint satisfaction problem where the game is about digits and its unique replacement either with alphabets or other symbols.
+2. Take the input.
+3. Start from the left-hand side and assign a digit which could give a satisfactory result.
+4. Move ahead to the next terms
+5. Again, after solving the whole problem, we will get a carryover on this term, so our answer will be satisfied.
+6. Print the output.
