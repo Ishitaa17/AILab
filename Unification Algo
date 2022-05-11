@@ -1,0 +1,20 @@
+1.If  Ψ1 or Ψ2 is a variable or constant, then:
+    a)If Ψ1 or Ψ2 are identical, then return NULL.
+    b) Else if Ψ1 is a variable:
+         - then if Ψ1 occurs in Ψ2, then return False
+         - Else return (Ψ2 / Ψ1)
+    c)Else if Ψ2 is a variable:
+         - then if Ψ2 occurs in Ψ1, then return False
+         - Else return (Ψ1 / Ψ2)
+    d)Else return False
+2.If the initial Predicate symbol in Ψ1 and Ψ2 are not
+same, then return False.
+3.IF Ψ1 and Ψ2 have a different number of arguments,
+then return False.
+4.Create Substitution list.
+5.For i=1 to the number of elements in Ψ1.
+    a)Call Unify function with the ith element of Ψ1 and with
+    element of Ψ2, and put the result into S.
+    b)If S = False then returns False
+    c)If S ≠ Null then append to Substitution list
+6.Return Substitution list.
