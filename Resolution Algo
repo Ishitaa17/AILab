@@ -1,0 +1,6 @@
+Resolution basically works by using the principle of proof by contradiction. To find the conclusion we should negate the conclusion. Then the resolution rule is applied to the resulting clauses. Each clause that contains complementary literal is resolved to produce a two new clause,which can be added to the set of facts (if it is not already present).This process continues until one of the two things happen: 
+· 	There are no new clauses that can be added 
+· 	An application of the resolution rule derives the empty clause 
+ 
+ 
+An empty clause shows that the negation of the conclusion is a complete contradiction, hence the negation of the conclusion is invalid or false or the assertion is completely valid or true. 
