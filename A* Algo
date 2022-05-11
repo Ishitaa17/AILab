@@ -1,0 +1,19 @@
+Make an open list containing starting node
+If it reaches the destination node :
+Make a closed empty list 
+If it does not reach the destination node, then consider a node with the lowest f-score in the open list
+We are finished
+
+Else :
+Put the current node in the list and check its neighbors
+
+For each neighbor of the current node :
+If the neighbor has a lower g value than the current node and is in the closed list:
+Replace neighbor with this new node as the neighbor’s parent
+
+Else If (current g is lower and neighbor is in the open list):
+Replace neighbor with the lower g value and change the neighbor’s parent to the current node.
+
+Else If the neighbor is not in both lists:
+Add it to the open list and set its g
+
