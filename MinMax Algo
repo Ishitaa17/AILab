@@ -1,0 +1,5 @@
+1. Mini-max algorithm is a recursive or backtracking algorithm which is used in decision-making and game theory. It provides an optimal move for the player assuming that the opponent is also playing optimally.
+2. The Min-Max algorithm is mostly used for game playing in AI. Such as Chess, Checkers, tic-tac-toe, go, and various two-players games. This Algorithm computes the minimax decision for the current state.
+3. In this algorithm two players play the game; one is called MAX and other is called MIN.
+4. Both Players of the game are opponents of each other, where MAX will select the maximized value and MIN will select the minimized value.
+5. The minimax algorithm performs a depth-first search algorithm for the exploration of the complete game tree.
